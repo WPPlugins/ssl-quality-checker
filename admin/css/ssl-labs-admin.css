@@ -1,0 +1,134 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.ssl-status-summary{
+    margin-top: 20px;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+.ssl-status-summary tr.first th, .ssl-status-summary tr.first td{
+    border-bottom:1px solid #D7D7D7;
+}
+.ssl-status-summary th{
+    text-transform: uppercase;
+    background-color: #ECECEC;
+    text-align: left;
+    font-size:14px;
+    padding:12px 20px;
+    margin:0;
+
+}
+
+.ssl-status-summary td{
+    background-color: #FFFFFF;
+    text-align: left;
+    font-size:14px;
+    padding:12px 20px;
+    margin:0;
+
+
+}
+.ssl-status-summary tr td:first-child{
+    border-bottom:1px solid #D7D7D7;
+}
+.ssl-status-details{
+    margin-top: 20px;
+    width:100%;
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+.ssl-status-details th{
+    text-transform: uppercase;
+    background-color: #ECECEC;
+    text-align: left;
+    font-size:14px;
+    padding:12px 20px;
+}
+.ssl-status-details .grade_col{
+    width:76px;
+}
+.ssl-status-details .ipaddress_col{
+    width:76px;
+}
+.ssl-status-details td{
+    padding-left:22px;
+    padding-right:22px;
+    font-weight: bold;
+    font-size: 14px;
+    border-bottom:1px solid #F1F1F1;
+}
+.ssl-status-details tr{
+    background-color: #fff;
+}
+.ssl-status-details a{
+    text-decoration: none;
+    color:inherit;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.grade{
+    text-align: center;
+    margin: 15px auto;
+    width: 72px;
+    height: 72px;
+    font-size: 50px;
+    line-height: 72px;
+    font-weight: normal;
+    color:#fff;
+
+}
+.grade-a{
+    background-color: #00A500;
+}
+.grade-b{
+    background-color: #68D035;
+}
+.grade-c{
+    background-color: #F8CF00;
+}
+.grade-d{
+    background-color: #FFA901;
+}
+.grade-e{
+    background-color: #FF7701;
+}
+.grade-f,.grade-m,.grade-t, .grade-unknown{
+    background-color: #FF4D41;
+}
+.loading{
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align: center;
+}
+
+.logo{
+    float:right;
+    width:200px;
+    margin-left:20px;
+}
+.qualys img{
+    width:100%;
+    height:auto;
+    padding-top:5px;
+}
+.createful svg{
+    width: 100%;
+    margin-top: -20px;
+    height: auto;
+}
+.logo.createful{
+    width:150px;
+    margin-right:20px;
+}
+#force-float-left p.submit{
+    float:left !important;
+    padding-left:0px !important;
+}
+img.loader{
+
+
+}
+.progress_col{
+    width:80px
+}
